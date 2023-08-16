@@ -1,5 +1,5 @@
 //==================== Task 01 ==================== 
-console.log("Task1");
+console.log("==================== Task 01 ==================== ");
 console.log("Node.js, TypeScript and VS Code installed in Laptop");
 
 
@@ -9,7 +9,7 @@ console.log("Node.js, TypeScript and VS Code installed in Laptop");
 // Personal Message: Store a person’s name in a variable, and print a message to that person. 
 // Your message should be simple, such as, “Hello Eric, 
 // would you like to learn some Python today?”
-console.log("Task2");
+console.log("==================== Task 02 ==================== ");
 
 let personName:string ="Eric";
 
@@ -22,7 +22,7 @@ console.log(`Hello ${personName}, would you like to learn some Python today?`);
 
 // Name Cases: Store a person’s name in a variable,
 // and then print that person’s name in lowercase, uppercase, and titlecase.
-console.log("Task3");
+console.log("==================== Task 03 ==================== ");
 
 let personsName:string ="Ehsan Allahi";
 
@@ -55,7 +55,7 @@ console.log(`Hello ${titleCase}, would you like to learn some Python today?`);
 //   including the quotation marks:
 
 // Albert Einstein once said, “A person who never made a mistake never tried anything new.”
-console.log("Task 4");
+console.log("==================== Task 04 ==================== ");
 console.log(`Albert Einstein once said, “A person who never made a mistake never tried anything new.”`);
 
 
@@ -67,7 +67,7 @@ console.log(`Albert Einstein once said, “A person who never made a mistake nev
 // Then compose your message and store it in a new variable called message.
 //  Print your message.
 
-console.log("Task 05");
+console.log("==================== Task 05 ====================");
 
 let famous_person:string ="Albert Einstein ";
 let message:string ="A person who never made a mistake never tried anything new.";
@@ -77,7 +77,7 @@ console.log(`${famous_person} once said, ${message}`);
 
 //==================== Task 06 ==================== 
 
-console.log("Task 06");
+console.log("==================== Task 06 ====================");
 
 // Stripping Names: Store a person’s name, 
 // and include some whitespace characters at the beginning and end of the name.
@@ -93,53 +93,55 @@ console.log(nameOfPerson);
 console.log( "\n Name after Striping :");
 console.log(nameOfPerson.trim());
 
-
-
-
-
-
-
-
-
-
 //==================== Task 07 ==================== 
 
-console.log("Task 07");
+console.log("==================== Task 07 ==================== ");
+
+// Number Eight: Write addition, subtraction, multiplication, 
+// and division operations that each result in the number 8.
+//  Be sure to enclose your operations in print statements to see the results.
 
 
+// Adding 
+console.log("addition");
+
+console.log(5+3);
 
 
+// subtraction
+console.log("subtraction");
+console.log( 10-2);
 
+//multiplication
+console.log("multiplication");
+console.log(4*2);
 
-
-
-
-
-
-
-
+// division
+console.log("division");
+console.log(24/3);
 
 //==================== Task 08 ==================== 
 
+// You should create four lines that look like this:
 
+// console.log(5 + 3)
+
+// Your output should simply be four lines with the number 8 appearing once on each line.
 console.log("Task 08");
 
+console.log("--------------------------------------");
+console.log("5+3");
 
+console.log("--------------------------------------");
+console.log("10-2");
 
+console.log("--------------------------------------");
+console.log("4*2");
 
+console.log("--------------------------------------");
+console.log("24/3");
 
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("--------------------------------------");
 
 
 //==================== Task 09 ==================== 
@@ -147,21 +149,40 @@ console.log("Task 08");
 
 console.log("Task 09");
 
+// Favorite Number: Store your favorite number in a variable.
+//  Then, using that variable, create a message that reveals your favorite number.
+//   Print that message.
 
+let favNumber:number = 17;
 
+let msg:string =" My favorite Number is:";
 
-
-
-
-
-
-
-
+console.log(`${msg}  ${favNumber}`);
 
 //==================== Task 10 ==================== 
 
 console.log("Task 10");
 
+// Adding Comments: Choose two of the programs you’ve written,
+//  and add at least one comment to each.
+//   If you don’t have anything specific to write because your programs are too simple at this point,
+//  just add your name and the current date at the top of each program file.
+//   Then write one sentence describing what the program does.
+
+
+// this is storing my Name into myName variable and diplaying 
+let myName:string ="Ehsan Allahi";
+
+console.log(myName);
+
+// Addition of 3 numbers
+
+const sum =(number1:number,number2:number ,number3:number)=>{
+  return number1+number2+number3;
+};
+
+console.log(sum(3,5,2));
+export{};
 
 
 
