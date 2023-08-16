@@ -42,3 +42,29 @@ console.log("Task 05");
 let famous_person = "Albert Einstein ";
 let message = "A person who never made a mistake never tried anything new.";
 console.log(`${famous_person} once said, ${message}`);
+//==================== Task 06 ==================== 
+console.log("Task 06");
+// Stripping Names: Store a person’s name, 
+// and include some whitespace characters at the beginning and end of the name.
+//  Make sure you use each character combination, "\t" and "\n", at least once.
+//   Print the name once, so the whitespace around the name is displayed.
+//    Then print the name after striping the white spaces.
+console.log("Name with White Space:");
+let nameOfPerson = " \t\n Ehsan Allahi \t\n";
+console.log(nameOfPerson);
+console.log("\n Name after Striping :");
+console.log(nameOfPerson.trim());
+//==================== Task 07 ==================== 
+console.log("Task 07");
+//==================== Task 08 ==================== 
+console.log("Task 08");
+//==================== Task 09 ==================== 
+console.log("Task 09");
+//==================== Task 10 ==================== 
+console.log("Task 10");
+//==================== Task 11 ==================== 
+console.log("Task 11");
+//==================== Task 12 ==================== 
+console.log("Task 12");
+//==================== Task 13 ==================== 
+console.log("Task 13");
