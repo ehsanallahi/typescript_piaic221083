@@ -112,8 +112,43 @@ const sum = (number1, number2, number3) => {
 };
 console.log(sum(3, 5, 2));
 //==================== Task 11 ==================== 
-console.log("Task 11");
+console.log("==================== Task 11 ==================== ");
+// Names: Store the names of a few of your friends in a array called names.
+//  Print each person’s name by accessing each element in the list, one at a time.
+let myFriends = ['Usman', 'Ravees', 'Rashid', 'Ali'];
+for (const name of myFriends) {
+    console.log(name);
+}
 //==================== Task 12 ==================== 
 console.log("Task 12");
+// Greetings: Start with the array you used in Exercise 11, 
+// but instead of just printing each person’s name, print a message to them. 
+// The text of each message should be the same, but each message should be personalized with the person’s name.
+for (const name of myFriends) {
+    console.log(`Hello, ${name}! Hope you're doing well.`);
+}
 //==================== Task 13 ==================== 
-console.log("Task 13");
+console.log("==================== Task 13 ==================== ");
+// Your Own Array: Think of your favorite mode of transportation, 
+// such as a motorcycle or a car, and make a list that stores several examples. 
+// Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
+let motorcycles = ['Honda 70cc', 'Honda 125cc', 'Suzuki 110 cc', 'Road Price 100cc'];
+for (const motorcycle of motorcycles)
+    console.log(`I would like to own a ${motorcycle} motorcycle`);
+//==================== Task 14 ==================== 
+console.log("==================== Task 14 ==================== ");
+// Guest List: If you could invite anyone, living or deceased, to dinner, 
+// who would you invite? Make a list that includes at least three people you’d like to invite to dinner.
+//  Then use your list to print a message to each person, inviting them to dinner.
+let guests = ['Ali', 'Hamza', 'Usman'];
+for (const guest of guests) {
+    console.log(`Hello ${guest} your invite for dinner at my place tonight.`);
+}
+//==================== Task 15 ==================== 
+console.log("==================== Task 15 ==================== ");
+// Changing Guest List: You just heard that one of your guests can’t make the dinner, 
+// so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+let listOfGuests = ['Ali', 'Hamza', 'Bilal'];
+for (const newGuest of listOfGuests) {
+    console.log(`Hello ${newGuest} your invite for dinner at my place tonight.`);
+}
